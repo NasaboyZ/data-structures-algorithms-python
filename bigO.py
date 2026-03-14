@@ -1,4 +1,4 @@
-# O(n)
+# # O(n)
 def print_items(n):
     for i in range (n):
         print(i)
@@ -7,7 +7,7 @@ def print_items(n):
 print_items(10)
 
 
-# drop Const
+# # drop Const
 def print_items(n):
     for i in range (n):
         print(i)
@@ -16,9 +16,20 @@ def print_items(n):
 
 print_items(10)
 
-# O(n^2)
+# # O(n^2)
 def print_items(n):
     for i in range(n):
         for j in range(n):
             print (i,j)
+print_items(10)
+
+# Drop non Dominants
+def print_items(n):
+    for i in range(n):
+        for j in range(n):
+            print(i, j)
+
+    for k in range(n):
+        print(k)
+
 print_items(10)
