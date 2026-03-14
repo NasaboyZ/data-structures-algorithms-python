@@ -33,3 +33,9 @@ def print_items(n):
         print(k)
 
 print_items(10)
+
+#Big O(1)
+
+def add_items(n):
+    return n + n + n
+
